@@ -5,7 +5,7 @@ In the paper ('Reference (Res Paper).pdf'), a total of seven CNNs are trained. T
 
 In our project, we have considered training only two CNNs, which'll perfectly suffice. The first CNN (The_From_Network) is for predicting the square from where a move has to be made. The second CNN (The_To_Network) is for predicting the square to where a move has to be made ( given the board layout in each case ). Moreover, unlike the reference paper, we have also considered including those board layouts in our dataset which call for black's turn. For each of those cases, the layout of the board was augmented in such a way that could make it appear as if it calls for white's turn. 
 
-# In the published paper: test/validation accuracies of CNNs: {38.3%}, {52.20%, 29.25%, 56.15%, 40.54%, 26.52%, 47.29%}.
+*In the published paper: test/validation accuracies of CNNs: {38.3%}, {52.20%, 29.25%, 56.15%, 40.54%, 26.52%, 47.29%}.*
 
-# In our project: test/validation accuracies of CNNs: {48.65%}, {27.23%}.
+*In our project: test/validation accuracies of CNNs: {48.65%}, {27.23%}.*
 
